@@ -452,8 +452,8 @@ header nav i {
     }
 
     .container .main .content .list .headbtn .viewall {
-        padding: 1rem 2rem;
-        font-size: .7rem;
+        padding: 1rem 1.5rem;
+        font-size: .5rem;
     }
 
     .container .main .content .list .headbtn .viewall:hover {
