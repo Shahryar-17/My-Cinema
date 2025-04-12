@@ -55,13 +55,13 @@ const swiper = new Swiper('.slider-wrapper', {
     // Responsive breakpoints
     breakpoints: {
         0: {
-            slidesPerView: 4
+            slidesPerView: 3.5
         },
         768: {
             slidesPerView: 10
         },
         1024: {
-            slidesPerView: 10
+            slidesPerView: 7
         }
     }
 });
