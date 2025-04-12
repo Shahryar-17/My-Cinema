@@ -1,3 +1,7 @@
+/* Importing Google Font - Montserrat */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* landing page start */
 
 body {
@@ -222,6 +226,44 @@ header nav i {
 
 /* trending end */
 
+/* Slider start */
+
+.container-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    margin-top: 2rem;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background: #fff;
+}
+
+.card-list .card-item{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px !important;
+}
+
+.card-list .card-item .image{
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+/* Slider end */
+
 /* media queries */
 
 @media (max-width:768px) {
@@ -287,6 +329,40 @@ header nav i {
         height: 120px;
         border-radius: .5rem;
     }
+
+    /* Slider */
+
+    .container-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh;
+    }
+
+    .card-list .card-item .image{
+        width: 90px;
+        height: 120px;
+        border-radius: 10%;
+    }
+
+    .card-list .card-item{
+        color: #fff;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90px !important;
+    }
+
+    .slider-wrapper {
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+
 }
 
 @media (max-width:1000px) {
