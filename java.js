@@ -37,7 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const swiper = new Swiper('.slider-wrapper', {
     loop: true,
     grabCursor: true,
-    spaceBetween: 10,
+    spaceBetween: 6,
 
     // If we need pagination
     pagination: {
@@ -55,10 +55,10 @@ const swiper = new Swiper('.slider-wrapper', {
     // Responsive breakpoints
     breakpoints: {
         0: {
-            slidesPerView: 2.7
+            slidesPerView: 3
         },
         768: {
-            slidesPerView: 10
+            slidesPerView: 3
         },
         1024: {
             slidesPerView: 7
