@@ -226,8 +226,24 @@ header nav i {
 
 @media (max-width:768px) {
 
+    header nav .fa-bars {
+        font-size: 1.2rem;
+        padding: .5rem 0.4rem;
+    }
+
+    header nav .logo img {
+        width: 6rem;
+    }
+
+    header nav i {
+        font-size: 1.1rem;
+    }
+
     .video-container {
         flex-wrap: wrap;
+        display: flex;
+        margin-top: 3rem;
+        gap: 1rem;
     }
 
     .video-container video {
@@ -243,11 +259,16 @@ header nav i {
     }
 
     .container h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin: 1.5rem 0rem;
     }
 
     .container .trending h2 {
-        font-size: 1rem;
+        font-size: .9rem;
+    }
+
+    .container .trending span {
+        font-size: 1.4rem;
     }
 
     .container .cards {
@@ -258,8 +279,8 @@ header nav i {
     }
 
     .container .card {
-        width: 140px;
-        height: 200px;
+        width: 90px;
+        height: 130px;
     }
 
     .container .cards .card img {
@@ -303,11 +324,11 @@ header nav i {
 
     header nav .links a {
         margin: .7rem;
-        padding: 1rem 1.7rem !important;
+        padding: .8rem 1.7rem !important;
         background-color: black;
         box-shadow: 0px 0px 0px #770000;
         color: white;
-        font-size: 1.1rem !important;
+        font-size: 0.8rem !important;
         border: .1rem solid rgba(0, 0, 0, 0.1);
         display: block;
         text-decoration: none;
