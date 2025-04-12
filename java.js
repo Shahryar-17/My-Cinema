@@ -55,7 +55,7 @@ const swiper = new Swiper('.slider-wrapper', {
     // Responsive breakpoints
     breakpoints: {
         0: {
-            slidesPerView: 3.5
+            slidesPerView: 3
         },
         768: {
             slidesPerView: 10
