@@ -272,7 +272,7 @@ header nav i {
     }
 
     .container .cards {
-        gap: .5rem;
+        gap: .2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         padding: .5rem;
@@ -280,11 +280,11 @@ header nav i {
 
     .container .card {
         width: 90px;
-        height: 130px;
+        height: 120px;
     }
 
     .container .cards .card img {
-        height: 200px;
+        height: 120px;
         border-radius: .5rem;
     }
 }
