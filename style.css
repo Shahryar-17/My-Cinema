@@ -199,8 +199,8 @@ header nav i {
 }
 
 .container .card {
-    width: 175px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     overflow: hidden;
     border-style: none;
     cursor: pointer;
@@ -216,7 +216,7 @@ header nav i {
 }
 
 .container .cards .card img {
-    height: 250px;
+    height: 200px;
     border-radius: .5rem;
 }
 
@@ -272,7 +272,7 @@ header nav i {
     }
 
     .container .cards {
-        gap: .2rem;
+        gap: .3rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         padding: .5rem;
