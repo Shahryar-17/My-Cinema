@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 20vh;
 }
 
 .wrapper {
@@ -42,7 +42,7 @@
     border-radius: .1rem;
     overflow-x: hidden;
     position: relative;
-    background-color: red;
+    background-color: black;
 }
 
 .wrapper .icon {
@@ -54,11 +54,54 @@
     align-items: center;
 }
 
+.icon:first-child {
+    left: 0;
+    display: none;
+    background: linear-gradient(90deg, black 70%, transparent);
+}
+
+.icon:last-child {
+    right: 0;
+    background: linear-gradient(-90deg, black 70%, transparent);
+    justify-content: flex-end;
+}
+
+.icon i {
+    width: 2rem;
+    height: 2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.icon i:hover {
+    background-color: #555;
+}
+
+.icon:first-child i {
+    margin-left: 1rem;
+}
+
+.icon:last-child i {
+    margin-right: 1rem;
+}
+
 .wrapper .tabs-box {
     display: flex;
     list-style: none;
     gap: .5rem;
     margin-bottom: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.tabs-box.dragging {
+    scroll-behavior: auto;
+    cursor: grab;
 }
 
 .tabs-box .tab {
@@ -70,4 +113,14 @@
     padding: .2rem 1rem;
     border-radius: .4rem;
     color: white;
+}
+
+.tabs-box.dragging .tab{
+    user-select: none;
+    pointer-events: none;
+}
+
+.tabs-box .tab.active{
+    color: black;
+    background-color: white;
 }
