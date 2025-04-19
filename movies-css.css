@@ -1,0 +1,73 @@
+/* Slider start */
+
+.container-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    margin-top: 2rem;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background: #fff;
+}
+
+.card-list .card-item .btnatoz {
+    border-style: none;
+    border-radius: .5rem;
+    padding: .1rem 1rem;
+    color: white;
+    background-color: #333;
+}
+
+/* Slider end */
+
+/* Draggable Slider Tabs */
+
+.draggable-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    max-width: 1000px;
+    border-radius: .1rem;
+    overflow-x: hidden;
+    position: relative;
+    background-color: red;
+}
+
+.wrapper .icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .tabs-box {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    margin-bottom: 0;
+}
+
+.tabs-box .tab {
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1rem;
+    background: #333;
+    border: 1px solid #fff;
+    padding: .2rem 1rem;
+    border-radius: .4rem;
+    color: white;
+}
