@@ -97,11 +97,11 @@
 
     .container .card {
         width: 90px;
-        height: 130px;
+        height: 140px;
     }
 
     .container .cards .card img {
-        height: 130px;
+        height: 140px;
         border-radius: .5rem;
     }
 
